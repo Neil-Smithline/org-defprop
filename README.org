@@ -1,0 +1,24 @@
+*** Overview
+This file is to be used with [[http://orgmode.org][Org Mode]] and [[http://www.gnu.org/software/emacs/][Emacs]].
+
+** Commentary
+org-defprop.el is intended to be used with `org-mode' code as well as
+in extensions to `org-mode'. It two externally usable special forms
+(ie: macros): `deforgsetting' and `deforgprop'.
+
+The special forms are used to declare `org-mode' settings (eg:
+`defcustom') and properties (eg: `defvar'). Besides replacing the
+`defcustom' or `defvar' declarations, a #+KEYWORDS keyword is defined
+and the variable documentation is modified to describe the keyword.
+
+** Background
+- [[http://www.xemacs.org/][XEmacs]]
+-- [[http://www.xemacs.org/Documentation/21.5/html/custom_2.html][defcustom]]
+-- [[http://www.xemacs.org/Documentation/21.5/html/lispref_17.html#SEC202][defvar]]
+
+- [[http://www.gnu.org/software/emacs/][Emacs]]
+-- [[http://www.gnu.org/software/emacs/manual/html_node/elisp/Variable-Definitions.html#Variable-Definitions][defcustom]]
+-- [[http://www.gnu.org/software/emacs/manual/html_node/elisp/Defining-Variables.html#Defining-Variables][defvar]]
+  
+
+# LocalWords:  deforgsetting deforgprop defprop
