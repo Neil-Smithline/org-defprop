@@ -1,7 +1,5 @@
-;;; org-defprop.el --- 
-;; 
-;; Filename: org-defprop.el
-;; Description: Define Org Mode variables and settings with a corresponding #+KEYWORDS setting.
+;;; org-defprop.el --- Define Org Mode variables and settings with a corresponding #+KEYWORDS setting.
+;;
 ;; Author: Neil Smithline
 ;; Maintainer: I guess me :-)
 ;; Copyright (C) 2012, Neil Smithline, all rights reserved.
@@ -9,11 +7,11 @@
 ;; Version: 1.0-pre1
 ;; Last-Updated: Sun Mar  4 13:44:18 2012 (-0500)
 ;;           By: Neil Smithline
-;;     Update #: 0
+;;     Update #: 1
 ;; URL: 
 ;; Keywords: org-mode, emacs, gnu-emacs
 ;; Compatibility: I think all Emacs.
-;; 
+;;
 ;; Features that might be required by this library:
 ;;
 ;;   custom
